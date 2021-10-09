@@ -2,8 +2,8 @@
 name: Lab Requirement Issue
 about: Issue for a requirement
 title: "[REQUIRED]"
-labels: ''
-assignees: ''
+labels: ASAP
+assignees: haxoc
 
 ---
 
