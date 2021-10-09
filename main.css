@@ -1,0 +1,36 @@
+#box {
+	max-width: 100ch;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+h2, h3 {
+	margin: .081in;
+}
+
+nav ol{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-right: 3pt;
+	margin-left: 3pt;
+	padding: 10px;
+}
+
+nav ol > li {
+	display: inline;
+	margin: 1em;
+}
+
+nav a:hover {
+	color:brown;
+	text-decoration: unset;
+}
+
+nav a:active {
+	color: darkmagenta;
+}
