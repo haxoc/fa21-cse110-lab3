@@ -34,3 +34,13 @@ nav a:hover {
 nav a:active {
 	color: darkmagenta;
 }
+
+button[type="submit"] {
+	border-radius: 5px;
+	border-color: darkorange;
+	margin: 10px;
+}
+img {
+	width: 500px;
+	height: 370px;
+}
