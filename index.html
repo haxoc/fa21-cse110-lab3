@@ -8,13 +8,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Team 3647: Meeting Minutes</title>
   <link href="favicon.ico" rel="icon" />
+  <style>
+    * {
+      /*This is to set all the fonts globally*/
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    nav {
+      background-color: aquamarine;
+    }
+    @media (max-width: 500px) {
+     nav {
+       background-color: chartreuse;
+     } 
+    }
+  </style>
 </head>
 
 <body>
   <header>
-    <h1>Team 3647: Meeting Minutes</h1>
-    <h3>Upcoming Competition</h3>
-    <h3>October 3rd 2021</h3>
+    <h1 id = "main_header">Team 3647: Meeting Minutes</h1>
+    <h3 class = "subtitle">Upcoming Competition</h3>
+    <h3 class = "subtitle">October 3rd 2021</h3>
     <nav>
       <ol>
         <li>
@@ -53,7 +67,7 @@
 
   <main>
     <hr />
-    <section id="meeting-info">
+    <section class="main_section" id="meeting-info">
       <h2>Meeting Info</h2>
       <section id="attendance">
         <h3>Attendance List</h3>
@@ -78,7 +92,7 @@
       </section>
     </section>
     <hr />
-    <section id="meeting-meat">
+    <section class="main_section" id="meeting-meat">
       <h2>Discussion Notes</h2>
       <section id="controller-issue">
         <h3>Why was the controller not reprogrammed last week?</h3>
@@ -102,7 +116,7 @@
       </section>
     </section>
     <hr />
-    <section id="for-next-time">
+    <section class="main_section" id="for-next-time">
       <h2>Follow Up Tasks</h2>
       <section id="guy-tasks">
         <h3>Tasks for Median Guy</h3>
@@ -141,7 +155,7 @@
       </section>
     </section>
     <hr />
-    <section id="contact-section">
+    <section class="main_section" id="contact-section">
       <h2>Submit Extra Tasks</h2>
       <form>
         <fieldset>
